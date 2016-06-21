@@ -1,20 +1,36 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-title: Dissem's Projects
+title: "Chris' Sideline Projects"
 email: chrigu.meyer@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  My active projects are Jabit, the Bitmessage implementation for Java,
-  and Abit, the Bitmessage client for Android handsets.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://dissem.github.io" # the base hostname & protocol for your site
+description: >
+  My active projects are Jabit, the Bitmessage implementation for Java, and Abit, the Bitmessage client for Android handsets.
+baseurl: ""
+url: "https://dissem.github.com"
+title_description: >
+  My active projects are Jabit, the Bitmessage implementation for Java, and Abit, the Bitmessage client for Android handsets.
+title_image: "http://www.gravatar.com/avatar/9f1f5f0df732d63c5a35a9070088bc96?s=500&d=mm"
+# google_analytics: "UA-20365477-4"
+# disqus_account: cartenoire
+# github_repository: https://github.com/Dissem
+# addthis_id: ra-513c6fa83da6ec67
+post_limit: 5
+
+# Social usernames/URLs
 twitter_username: Dissem
 github_username:  Dissem
+# linkedin_link: http://carte-noire.jacobtomlinson.co.uk/
+google_plus_link: https://plus.google.com/105847608075684658887
+stackoverflow_link: http://stackoverflow.com/users/1811696/chris
+
+# Footer
+footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/Dissem\">Christian Basler</a>"
+footer_right: "&lt;/&gt; on <a href=\"https://github.com/Dissem\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
 
 # Build settings
 markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+permalink: pretty
+exclude: [vendor]
