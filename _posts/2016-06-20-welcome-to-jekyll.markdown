@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2016-06-20 20:01:37 +0200
-categories: jekyll update
+categories: update
 ---
 I just discovered Jekyll and thought I'd give it a try. It seems easy to use and is well integrated into GitHub. I'll try to keep you up and running about my projects, most notably my efforts to bring Bitmessage to the Java (and Android) platform.
 
